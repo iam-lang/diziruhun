@@ -112,7 +112,7 @@ const Index = () => {
 
       <footer className="border-t border-white/10 mt-16 bg-white/5 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-6 text-center text-white/70">
-          <p>© 2024 <span className="font-semibold text-white">Dizi Ruhun</span>. Tüm hakları saklıdır.</p>
+          <p>© 2025 <span className="font-semibold text-white">Dizi Ruhun</span>. Tüm hakları saklıdır.</p>
         </div>
       </footer>
     </div>
