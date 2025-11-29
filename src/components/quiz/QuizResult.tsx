@@ -50,25 +50,22 @@ export const QuizResult = ({ character, description, quizTitle, onRetake }: Quiz
 
         <div className="flex flex-col sm:flex-row gap-3 mb-6 justify-center">
           <Button
-            variant="outline"
             onClick={shareToTwitter}
-            className="flex items-center gap-2 text-primary hover:bg-[#1DA1F2] hover:text-white hover:border-[#1DA1F2] transition-colors border-primary/20"
+            className="flex items-center gap-2 bg-primary text-white hover:bg-primary/90"
           >
             <Share2 className="w-4 h-4" />
             X'te Paylaş
           </Button>
           <Button
-            variant="outline"
             onClick={shareToWhatsApp}
-            className="flex items-center gap-2 text-primary hover:bg-[#25D366] hover:text-white hover:border-[#25D366] transition-colors border-primary/20"
+            className="flex items-center gap-2 bg-primary text-white hover:bg-primary/90"
           >
             <Share2 className="w-4 h-4" />
             WhatsApp'ta Paylaş
           </Button>
           <Button
-            variant="outline"
             onClick={copyLink}
-            className="flex items-center gap-2 text-primary hover:bg-primary hover:text-white transition-colors border-primary/20"
+            className="flex items-center gap-2 bg-primary text-white hover:bg-primary/90"
           >
             <Share2 className="w-4 h-4" />
             Linki Kopyala
@@ -76,7 +73,7 @@ export const QuizResult = ({ character, description, quizTitle, onRetake }: Quiz
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center pt-6 border-t border-primary/20">
-          <Button onClick={onRetake} variant="outline" className="flex items-center gap-2 text-primary border-primary/20 hover:bg-primary/10">
+          <Button onClick={onRetake} className="flex items-center gap-2 bg-primary text-white hover:bg-primary/90">
             <RotateCcw className="w-4 h-4" />
             Testi Tekrar Yap
           </Button>
